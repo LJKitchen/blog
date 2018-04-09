@@ -13,5 +13,8 @@ conceptual path, is in a way bogus.  From a deep theoretical
 point of view, there is no distinction &mdash; <em>all</em>
 functions are &ldquo;higher order&rdquo;.
 
-
+~~~~~ {.haskell}
+true  x y = x
+false x y = y
+~~~~~
 
